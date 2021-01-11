@@ -24,3 +24,12 @@ print("Daniils "*5)
 print(f"2021 gadā ir {60*60*24*365} sekundes")
 print (1/2)
 print(2)
+
+print ("------------------")
+
+saraksts = ["rex","bonux"]
+print(saraksts)
+print(type(saraksts))
+saraksts = 2
+print(saraksts)
+print(type(saraksts))
