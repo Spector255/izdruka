@@ -1,7 +1,7 @@
 print("Hello, world!")
 print(2 * 2, 2 * 3, 2 * 4, "Pitons")
-a = 1 + 2
-print(a)
+summa = 1 + 2
+print(summa)
 b = "a" + "b" + "c"
 print(b)
 c = 'a' * 2
