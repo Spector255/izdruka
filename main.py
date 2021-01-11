@@ -18,18 +18,39 @@ print("1" + "2")
 teksts
 Nu Ļoti
 """
-print ("------------------")
+print("------------------")
 
-print("Daniils "*5)
+print("Daniils " * 5)
 print(f"2021 gadā ir {60*60*24*365} sekundes")
-print (1/2)
+print(1 / 2)
 print(2)
 
-print ("------------------")
-
-saraksts = ["rex","bonux"]
+print("------------------")
+#Mainigie
+saraksts = ["rex", "bonux"]
 print(saraksts)
 print(type(saraksts))
 saraksts = 2
 print(saraksts)
 print(type(saraksts))
+#-----------------------------
+#Uzdevumi:
+a = 5
+print(a)
+print(a + a)
+a = a + a
+print(a)
+print(type(a))
+a = 30.2
+print(type(a))
+print()
+#---------------------Nodokļu uzdevums
+mani_ienakumi = 367
+nodoklis = 0.1  #10%
+mani_nodokli = mani_ienakumi * nodoklis
+print(f"Jums jāsamaksa {mani_nodokli}€ apmerā nodokļus")
+print()
+#---------------------
+#datu ievade
+vards = input("Ievadi vārdu: ")
+print(f"Sveiki, " + vards)
