@@ -26,13 +26,6 @@ print(1 / 2)
 print(2)
 
 print("------------------")
-#Mainigie
-saraksts = ["rex", "bonux"]
-print(saraksts)
-print(type(saraksts))
-saraksts = 2
-print(saraksts)
-print(type(saraksts))
 #-----------------------------
 #Uzdevumi:
 a = 5
@@ -43,12 +36,6 @@ print(a)
 print(type(a))
 a = 30.2
 print(type(a))
-print()
-#---------------------Nodokļu uzdevums
-mani_ienakumi = 367
-nodoklis = 0.1  #10%
-mani_nodokli = mani_ienakumi * nodoklis
-print(f"Jums jāsamaksa {mani_nodokli}€ apmerā nodokļus")
 print()
 #---------------------
 #datu ievade

@@ -1,1 +1,1 @@
-import virknes
+import telpas_tilpums
