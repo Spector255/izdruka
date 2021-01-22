@@ -39,5 +39,7 @@ print(type(a))
 print()
 #---------------------
 #datu ievade
-vards = input("Ievadi vārdu: ")
-print(f"Sveiki, " + vards)
+
+#vards = input("Ievadi vārdu: ")
+#print(f"Sveiki, " + vards)
+

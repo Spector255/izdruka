@@ -1,1 +1,1 @@
-import telpas_tilpums
+import materials.string_metodes
