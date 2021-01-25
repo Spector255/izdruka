@@ -48,5 +48,10 @@ new_list.sort() #sakartojam sarakstu
 print(new_list) #nesakartojam sarakstu
 
 print(num_list)
+num_list.reverse() #apgriež pretēja virziena
+print(num_list)
 num_list.sort()
+print(num_list)
+
+num_list.reverse() #sakarto otrādi
 print(num_list)
