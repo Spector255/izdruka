@@ -32,7 +32,7 @@ jauns_list.insert(
 )  #pievieno elementu pirms noradītam indeksam == jauns_list.insert (6, "septiņi")
 print(jauns_list)
 
-jauns_list.pop()  #noņem nost elementu noradīto indeksu
+jauns_list.pop()  #noņem nost elementu noradīto indeksu (š.s. pēdejo)
 print(jauns_list)
 
 pop_elem = jauns_list.pop(
@@ -55,3 +55,13 @@ print(num_list)
 
 num_list.reverse() #sakarto otrādi
 print(num_list)
+
+myList = [1, 2, 3, 100, 3.59,]
+myList.sort()
+print(myList)
+
+#saraksts sarakstā (nested)
+nestedList=[1,5,[7,2]]
+print(nestedList[1])
+print(len(nestedList))
+print(nestedList[2][1])
