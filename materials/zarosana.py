@@ -17,26 +17,26 @@ elif x > 0:
     print(f"{x} Lielāks par 0")
 else:
     print(f"{x} Tas nav pozitīvs skaitlis")
-'''
+
 a = int(input("Ievadiet pirmo skaitli: "))
 b = int(input("Ievadiet otro skaitli: "))
 c = int(input("Ievadiet trešo skaitli: "))
-if a > b and a > c:
-    if b > c:
-        print(a, b, c)
-    else:
-        print(a, c, b)
-elif b > a and b > c:
-    if a > c:
-        print(b, a, c)
-    else:
-        print(b, c, a)
-elif c > a and c > b:
-    if b > a:
+if a >= b and a >= c:
+    if b >= c:
         print(c, b, a)
     else:
+        print(b, c, a)
+elif b >= a and b >= c:
+    if a >= c:
         print(c, a, b)
-'''
+    else:
+        print(a, c, b)
+elif c >= a and c >= b:
+    if b >= a:
+        print(a, b, c)
+    else:
+        print(b, a, c)
+
 
 if True:
     print("patiesi")
