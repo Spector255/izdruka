@@ -53,3 +53,14 @@ elif c >= a and c >= b:
     else:
         print(b, a, c)
 ######################################
+#Firma darbiniekiem apsolījusi Ziemassvētku piemaksu 15% apjomā no mēneša algas par KATRU nostrādāto gadu virs 2 gadiem.#
+#Uzdevums. Izveido programmu, kas lietotājam pajautā mēneša algas apjomu un nostrādāto gadu skaitu, bet pēc tam aprēķina un izvada piemaksas lielumu. 
+#Piemērs: Ja ir 5 gadu stāžs un 1000 eiro alga, tad piemaksa būs 450 eiro. 
+alga = float(input("Ievadiet savu algu: "))
+gads = int(input("Ievadiet stāžu: "))
+if gads <= 2:
+    print("Jūms nav piemaksas")
+else:
+    stazs = gads - 2
+    piemaksa = ((alga/100)*15)*stazs
+    print(f"Jūsu piemaksa ir {piemaksa} eiro")
