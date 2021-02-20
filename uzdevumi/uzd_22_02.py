@@ -1,14 +1,29 @@
 i = 1
-while i<=200:
-    if i % 5 == 0 and i % 7 == 0 :
-        print("FizzBuzz, ", end =" ")
-        i+=1
-    elif i % 5 == 0:
-        print("Fizz, ", end =" ")
-        i+=1
-    elif i % 7 == 0:
-        print("Buzz, ", end =" ")
-        i+=1
+a=200
+while i<=a:
+    if i == a:          #Pēdējo komātu noņēmšana :)
+        if i % 5 == 0 and i % 7 == 0 :
+            print("FizzBuzz", end =" ")
+            i+=1
+        elif i % 5 == 0:
+            print("Fizz", end =" ")
+            i+=1
+        elif i % 7 == 0:
+            print("Buzz", end =" ")
+            i+=1
+        else:
+            print(f"{i}", end =" ")
+            i+=1
     else:
-        print(f"{i}, ", end =" ")
-        i+=1
+        if i % 5 == 0 and i % 7 == 0 :
+            print("FizzBuzz, ", end =" ")
+            i+=1
+        elif i % 5 == 0:
+            print("Fizz, ", end =" ")
+            i+=1
+        elif i % 7 == 0:
+            print("Buzz, ", end =" ")
+            i+=1
+        else:
+            print(f"{i}, ", end =" ")
+            i+=1
