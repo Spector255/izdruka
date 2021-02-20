@@ -1,1 +1,1 @@
-import uzdevumi.uzd_if_else_15_02
+import uzdevumi.uzd_22_02

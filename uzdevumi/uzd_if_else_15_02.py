@@ -64,3 +64,4 @@ else:
     stazs = gads - 2
     piemaksa = ((alga/100)*15)*stazs
     print(f"Jūsu piemaksa ir {piemaksa} eiro")
+######################################
