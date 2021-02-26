@@ -1,5 +1,5 @@
 i = 1
-a=200
+a = 14825
 while i<=a:
     if i == a:          #Pēdējo komātu noņēmšana :)
         if i % 5 == 0 and i % 7 == 0 :
