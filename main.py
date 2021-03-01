@@ -1,1 +1,1 @@
-import materials.for_cikls
+import uzdevumi.uzd_01_03
