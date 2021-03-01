@@ -32,9 +32,8 @@ print("##################################")
 ##########################################
 rindas = int(input("Ievadiet rindas skaitu: "))
 while rindas>9:
-    if rindas>9:
-        print ("Nekorēkti dati")
-        rindas = int(input("Ievadiet rindas skaitu: "))
+    print ("Nekorēkti dati")
+    rindas = int(input("Ievadiet rindas skaitu: "))
 startr=1
 stri=""
 for startr in range (startr,rindas+1):
