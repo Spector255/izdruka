@@ -1,10 +1,10 @@
 #############1. uzd####################
 neparaskaitlis = int(input("Ievadiet skaitli: "))
 sakums = 1
-while sakums != neparaskaitlis+1:
+while sakums != neparaskaitlis + 1:
     if sakums % 2 != 0:
-         print(sakums, end=" ")
-         sakums += 1
+        print(sakums, end=" ")
+        sakums += 1
     else:
         sakums += 1
 print()
