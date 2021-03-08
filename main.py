@@ -1,1 +1,1 @@
-import uzdevumi.uzd_05_03
+import uzdevumi.uzd_08_03
