@@ -1,1 +1,1 @@
-import uzdevumi.uzd_12_03
+import materials.noderigi_operatori
