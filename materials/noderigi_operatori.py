@@ -67,3 +67,5 @@ print("========================")
 from random import randint
 skaitlis = randint(0,100)
 print(skaitlis)
+skaitlis = randint(-100,0)
+print(skaitlis)

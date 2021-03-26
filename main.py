@@ -1,1 +1,1 @@
-import materials.noderigi_operatori
+import materials.funkcijas
