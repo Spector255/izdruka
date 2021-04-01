@@ -1,1 +1,2 @@
-import materials.funkcijas
+import materials.funkcijas_return
+    
