@@ -25,7 +25,22 @@ else:
 def parbaude2(saraksts):
     for skaitlis in saraksts:
         if skaitlis % 2 == 0:
-            return True
+            return True #pēc return funkcijas darbības apstājas
+        else:
+            pass
+    return False
 
 print(parbaude2([1,2,3,4,5,6,7,8,9]))
 print(parbaude2([1,3,5,7,9]))
+
+#atgriež visus pāra skaitļus, kas ir sarakstā
+def skaitla_parbaudi(saraksts):
+    para_skaitli = []
+    for skaitlis in saraksts:
+        if skaitlis % 2 == 0:
+            para_skaitli.append(skaitlis)
+        else:
+            pass
+    return para_skaitli
+
+print(skaitla_parbaudi([1,3,4,5,6,7,8,9]))

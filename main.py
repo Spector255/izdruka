@@ -1,2 +1,2 @@
-import materials.funkcijas_return
+import uzdevumi.funkcijas
     
