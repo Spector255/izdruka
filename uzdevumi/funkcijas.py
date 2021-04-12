@@ -45,13 +45,31 @@ print(summa(5,10))
 print(summa(5,5))
 print("#############4_uzd###########")
 #####4_uzd#####
-def modulis(skaitlis):
-    if abs(skaitlis) > 21:
-        return abs(skaitlis)  * 2
+def starpiba(sk):
+    if  sk <=21:
+        st=21-sk
     else:
-        return abs(skaitlis)
-print(modulis(-48))
-print(modulis(48))
-print(modulis(-5))
-print(modulis(5))
-print("##############################")
+        st=sk-21
+    if st > 21:
+        return st*2
+    return st
+print(starpiba(3))
+print(starpiba(121))
+print("#############5_uzd###########")
+#####5_uzd#####
+"""
+We have a loud talking parrot. The "hour" parameter is the current hour time in the range 0..23. We are in trouble if the parrot is talking and the hour is before 7 or after 20. Return True if we are in trouble. Funkcija papagaila_problema
+"""
+
+def papagaila_problema(stunda, runa):
+    if stunda >= 25:
+        return "Error"
+    if (stunda > 20 or stunda < 7)and runa == True:
+        print("Kaimiņi izsauca pašvaldības policiju")
+        return True
+    return False
+
+print (papagaila_problema(4))
+print (papagaila_problema(13))
+print (papagaila_problema(21))
+print (papagaila_problema(28))
