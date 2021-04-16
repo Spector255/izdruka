@@ -1,2 +1,2 @@
-import uzdevumi.funkcijas
+import materials.funk_spele
     
