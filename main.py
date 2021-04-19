@@ -1,2 +1,2 @@
-import materials.funk_spele
+import materials.funk_komb
     
