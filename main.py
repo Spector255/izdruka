@@ -1,2 +1,2 @@
-import materials.funk_komb
+import uzdevumi.uzd_23_04
     
