@@ -1,2 +1,2 @@
-import uzdevumi.uzd_23_04
+import uzdevumi.test
     
