@@ -1,2 +1,1 @@
-import uzdevumi.test
-    
+import PD_30_04.uzd7
