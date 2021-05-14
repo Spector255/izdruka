@@ -1,2 +1,6 @@
-skola = "abc"
-print(5 * skola)
+burts = "a"
+vards = "abc"
+if burts in vards:
+    print("Yes")
+else:
+    print("No")

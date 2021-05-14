@@ -1,1 +1,1 @@
-import materials.args_kwargs
+import game #uzdevumi.test
