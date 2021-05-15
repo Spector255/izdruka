@@ -1,1 +1,1 @@
-import game #uzdevumi.test
+import game
