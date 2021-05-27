@@ -1,11 +1,9 @@
 #pip install --upgrade pip
 #pip install PyYAML
-
 from turtle import *
 from random_word import RandomWords
 
 r = RandomWords()
-
 
 def karatavas_zimejums(garums):
     hideturtle()
@@ -48,19 +46,17 @@ def pareizi_viens(vards, burts):
     write(burts)
 
 
-def pareizi_daudz(vards, burts, skaits):
+def pareizi_daudz(vards, burts):
     garums = len(vards)
     svitras_lielums = 300 / (garums * 2)
-    final = ""
-    c = 0
     for i in range(garums):
         if vards[i] == burts:
             pu()
             setposition(-150, -45)
             left(90)
             loc = 0
-            while loc != i:
-                forward(svitras_lielums * 2)
+            while loc != i: 
+                forward(svitras_lielums * 2) 
                 loc += 1
             right(90)
             pd()
@@ -142,15 +138,16 @@ while pareizas < garums:
             answers.append(burts)
             burtu_skaits = vards.count(burts)
             if burtu_skaits > 1:
-                pareizi_daudz(vards, burts, burtu_skaits)
-                ("Pareizi!")
+                pareizi_daudz(vards, burts)
+                print("Pareizi!")
                 pareizas += burtu_skaits
             else:
                 pareizi_viens(vards, burts)
-                ("Pareizi!")
+                print("Pareizi!")
                 pareizas += 1
             if pareizas == garums:
                 print("Apsveicam!")
+                break
         else:
             answers.append(burts)
             kludas += 1
